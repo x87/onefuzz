@@ -68,7 +68,7 @@ TASK_DEFINITIONS = {
             ),
             ContainerDefinition(
                 type=ContainerType.analysis,
-                compare=Compare.Equal,
+                compare=Compare.AtLeast,
                 value=1,
                 permissions=[
                     ContainerPermission.Write,
