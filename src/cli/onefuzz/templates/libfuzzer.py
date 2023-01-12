@@ -537,7 +537,7 @@ class Libfuzzer(Command):
         libfuzzer-dotnet task
         """
 
-        # ensure directories exist
+        # ensure containers exist
         if existing_inputs:
             self.onefuzz.containers.get(existing_inputs)
 
